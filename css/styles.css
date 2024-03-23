@@ -1,0 +1,85 @@
+/* Common styles */
+ul,
+ol {
+  list-style: none;
+}
+body {
+  font-family: Montserrat, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+.section {
+}
+
+/*HEADER STYLES*/
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-size: 18px;
+
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.header-logo-italic {
+  font-style: italic;
+}
+.header-img {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.header-networls {
+}
+.header-networls-item {
+}
+.header-networls-link {
+}
+
+/*HERO STYLES*/
+
+.hero {
+  background-color: #111111;
+}
+
+.hero-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #fafafa;
+}
+.herro-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  text-align: left;
+  background-color: #fd9222;
+}
+.hero-link {
+}
+
+/*BENEFITS STYLES*/
+
+/*INGRIDIENTS STYLES*/
+
+/*MADE STYLES*/
+/*REVIEWS STYLES*/
+/*FOOTER STYLES*/

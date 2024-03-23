@@ -15,32 +15,47 @@ of pure delight!"
       href="./images/header/chocolate.svg"
       type="image/svg"
     />
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--STYLES-->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body>
+  <body class="page">
     <!--Header section-->
-    <header>
-      <a href="./index.html"
-        >SIMPLY CHOCOLATE
-        <img src="./images/header/chocolate.svg" alt="sSimply chocolate logo" />
-      </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">Home</a>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-italic">SIMPLY</span>CHOCOLATE
+          <img
+            class="header-img"
+            src="./images/header/chocolate.svg"
+            alt="sSimply chocolate logo"
+          />
+        </a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="./index.html">Home</a>
           </li>
-          <li>
-            <a href="#how">How it's made?</a>
+          <li class="header-item">
+            <a class="header-link" href="#how">How it's made?</a>
           </li>
-          <li>
-            <a href="#reviews">Chocolate is loved</a>
+          <li class="header-item">
+            <a class="header-link" href="#reviews">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
+      <ul class="header-networls">
+        <li class="header-networls-item">
           <a
+            class="header-networls-link"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noroferre"
@@ -51,8 +66,12 @@ of pure delight!"
               height="24"
           /></a>
         </li>
-        <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener noroferre"
+        <li class="header-networls-item">
+          <a
+            class="header-networls-link"
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noroferre"
             ><img
               src="./images/header/twitter.svg"
               alt="Twitter logo"
@@ -63,19 +82,19 @@ of pure delight!"
       </ul>
     </header>
     <!--Main block-->
-    <main>
+    <main class="main">
       <!--Hero section-->
-      <section>
-        <h1>
+      <section class="section hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#how">How it`s made</a>
-        <button type="button">scroll down</button>
+        <button class="herro-btn" type="button">Buy now</button>
+        <a class="hero-link" href="#how">How it`s made</a>
+        <button class="herro-btn" type="button">Scroll down</button>
       </section>
       <!--Benefits section-->
-      <section>
+      <section class="section benefits">
         <h2 hidden>Benefits of SIMPLY CHOCOLATE</h2>
         <ul>
           <li>
@@ -127,7 +146,7 @@ of pure delight!"
         </ul>
       </section>
       <!--Ingridients section-->
-      <section>
+      <section class="section ingridients">
         <h2>
           <span></span>
         </h2>
@@ -172,7 +191,7 @@ of pure delight!"
         </ul>
       </section>
       <!--How it`s made section-->
-      <section id="how">
+      <section class="section made" id="how">
         <h3>
           HOW IT`S
           <span>made?</span>
@@ -206,7 +225,7 @@ of pure delight!"
         </ul>
       </section>
       <!--Reviews section-->
-      <section id="reviews">
+      <section class="section reviews" id="reviews">
         <h3><span>chocolate</span>is loved</h3>
         <ul>
           <li>
@@ -255,7 +274,7 @@ of pure delight!"
       </section>
     </main>
     <!--Footer section-->
-    <footer>
+    <footer class="footer">
       <p><span>Chocolate</span> a delicious cure for a bad day</p>
       <address>
         <p>Contact us</p>
