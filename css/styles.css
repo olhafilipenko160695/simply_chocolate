@@ -1,13 +1,17 @@
 /* Common styles */
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Reset*/
 ul,
 ol {
   list-style: none;
 }
-body {
-  font-family: Montserrat, sans-serif;
-}
+
 a {
   text-decoration: none;
+  color: currentColor;
 }
 button {
   font-family: inherit;
